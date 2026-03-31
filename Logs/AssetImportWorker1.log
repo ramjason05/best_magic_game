@@ -1,0 +1,1503 @@
+Unity Editor version:    6000.4.0f1 (8cf496087c8f)
+Branch:                  6000.4/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Date:                    2026-03-31T04:35:37Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jasonramirez" at "2026-03-31T04:35:37.916929Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/jasonramirez/Desktop/game/best_magic_game_ever
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56782
+-licensingIpc
+LicenseClient-jasonramirez
+-force-metal
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/jasonramirez/Desktop/game/best_magic_game_ever
+/Users/jasonramirez/Desktop/game/best_magic_game_ever
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8782831360]  Target information:
+
+Player connection [8782831360]  * "[IP] 192.168.1.246 [Port] 0 [Flags] 2 [Guid] 2023321045 [EditorId] 2023321045 [Version] 1048832 [Id] OSXEditor(0,Jasons-Air-2.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8782831360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8782831360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-jasonramirez"
+[Licensing::IpcConnector] LicenseClient-jasonramirez channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jasonramirez-6000.4.0" at "2026-03-31T04:35:38.444947Z"
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 15.09 ms, found 2 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jasonramirez/Desktop/game/best_magic_game_ever/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Mac GPU Family: 2
+Apple GPU Family: 8
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56626
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2e27d0c7e41a463692fed60ddf252e8f
+  Correlation Id:          87b6a5aed2d66a7a39406dcd2b70e656
+  External correlation Id: 4586260718627412984
+  Machine Id:              Ri6uhrSYPQOqNpyG9AH7YV3XWSs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jasonramirez-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.52s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jasonramirez-6000.4.0-notifications" at "2026-03-31T04:35:38.964183Z"
+[Licensing::Module] Licensing Background thread has ended after 1.05s
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001055 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 697ms
+	BeginReloadAssembly (118ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (118ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
+	FinalizeReload (328ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375917086630-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (142ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (218ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (62ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (692ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7020 unused Assets / (6.0 MB). Loaded Objects now: 7848.
+Memory consumption went from 162.4 MB to 156.3 MB.
+Total: 18.497250 ms (FindLiveObjects: 1.722000 ms CreateObjectMapping: 0.656834 ms MarkObjects: 14.081458 ms  DeleteObjects: 2.036583 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 441322.310226 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Layer_3.png
+  importAddress: Guid(799d431709bc6bb4795bc21991260f84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Layer_3.png using Guid(799d431709bc6bb4795bc21991260f84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4c2e6ba3f160c4cc673b8d0d66deb354') in 0.07774125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44662380095175a08eca5701a088f635 DependenciesID=c1aa1609acc7099fdcf4c56bd4c87191 StaticDependenciesID=8b6fae248215faf8c925af24075b4ef9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scripts/Player.cs
+  importAddress: Guid(0fbb11aeffed7294fa0edd9a9e6bec2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scripts/Player.cs using Guid(0fbb11aeffed7294fa0edd9a9e6bec2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3bd699b2fb5b3eb1365c8dc1f69a0113') in 0.002718959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=493e1923a9d5ac5c00de13a5fd4873a4 DependenciesID=99df5437eb6828a4137a7fce47feccb8 StaticDependenciesID=731ab88b272281ff4306739298d9baab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Layer_4.png
+  importAddress: Guid(a486b1508ac43ae4790f14aa4e368c5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Layer_4.png using Guid(a486b1508ac43ae4790f14aa4e368c5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5a183edec86d1f1ebfa05fc10fbd1ff6') in 0.006051625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b7d278f84972238dace29d00bcf98c0 DependenciesID=2cd378da8bc41ac1e80f0777bbca7cf2 StaticDependenciesID=5fa9a5a6f300b67cb92cb2d9e561516f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_5/Layer_5.png
+  importAddress: Guid(ff41e078866bd0a42a0eb6c7f93015a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_5/Layer_5.png using Guid(ff41e078866bd0a42a0eb6c7f93015a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2aac3e2d3c62033e1be5da5a5f5b5d4d') in 0.006364709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2127dc1a8196fb4049a8d2a1947412e2 DependenciesID=d5dd4596e8aa7d81c10dceb1f450dcd4 StaticDependenciesID=c8010a94e4e862636f639b59d90b433c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Original.png
+  importAddress: Guid(40405777943723548a1e78f73bbf4e4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Original.png using Guid(40405777943723548a1e78f73bbf4e4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de35a52e33ee2fbb45b879c93460a4e4') in 0.005219958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a81174231cccc41a7454a966a10ad5f DependenciesID=60354c9ed859e7e8f92267b9fc6d570a StaticDependenciesID=a832f2e7c6862d0dc567181c97bb8aec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_5.png
+  importAddress: Guid(66452ea88b7a8e44595d6454970918c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_5.png using Guid(66452ea88b7a8e44595d6454970918c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cdcdde6a1251a9e9c41844a1791359cf') in 0.007971625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a061317f2d1c6bde1863770501a6013 DependenciesID=6e3aa22ad31526288212225bae3e65b2 StaticDependenciesID=a87f23b60c397bf7c017ee5adc3b733b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_8.prefab
+  importAddress: Guid(75b1cb2f75454e145a9a6d599271533a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_8.prefab using Guid(75b1cb2f75454e145a9a6d599271533a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a917ffa83b7a875e9598cd1e6ccf1d41') in 0.021523583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ba4336ad25dc682fcaaba8e445309cc DependenciesID=551f9f1f3207cc40dff390dde22cdcd9 StaticDependenciesID=4d6456915af49c8dce7d51f7de1a5045 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_6/Layer_1.png
+  importAddress: Guid(f1a5923c8f9405c4383eadae7c6e1018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_6/Layer_1.png using Guid(f1a5923c8f9405c4383eadae7c6e1018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3731d837b97d29281348da381e8ce53') in 0.008472917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=639fe68f0f1286d2c3d54937aca82a4c DependenciesID=8950a691ca0fec3882a25ee7ac0b8842 StaticDependenciesID=4182981dae3b0e3c1bec932d9208fdd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/GameObjects
+  importAddress: Guid(9c9eab124f7c21140beaadabe48b0793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/GameObjects using Guid(9c9eab124f7c21140beaadabe48b0793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b459be9de7b8679c2a30e5b5d18f30de') in 0.002985833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4f4d0a321117d5ec4b72cb0ad79f0a2 DependenciesID=87526084d1fb512525fb70e229a45b82 StaticDependenciesID=eaed3ffdcd2d73173216d6690085aa37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_6/Layer_2.png
+  importAddress: Guid(f582ff8b7bbc13440a2746011526998e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_6/Layer_2.png using Guid(f582ff8b7bbc13440a2746011526998e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '59927e90a299ded09fd994e5c76db32d') in 0.008689584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b00aa7b26670af373e5905d5fe87b12a DependenciesID=779721e65b2144d049a75a968e98cd3d StaticDependenciesID=3867763d91782471e37a56d5516d7665 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_5.prefab
+  importAddress: Guid(ca6c4ff3e0ec20d4182cab5bbb669916) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_5.prefab using Guid(ca6c4ff3e0ec20d4182cab5bbb669916) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a8f461b76564ba82ab1de3ebc0682ea5') in 0.018435875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d50b3367849f6629cfa04cb03bfcf48 DependenciesID=ad776524fa72604f99039d0d8aa33122 StaticDependenciesID=873af00a762ee5fb0d476c20153cb1f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_5/Layer_3.png
+  importAddress: Guid(7853987386538a543a30856c581b9c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_5/Layer_3.png using Guid(7853987386538a543a30856c581b9c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65ff65446ead5451b9bf4253172cb180') in 0.005164875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=455f50d816c418343e674d9809085104 DependenciesID=e122634922b8d5465ea688a43b6e16d4 StaticDependenciesID=7d7ce9bb98bd8aeb2bce4a6eb3ba27e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_5.png
+  importAddress: Guid(7ec8311773973bc4cab9a78461fabed7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_5.png using Guid(7ec8311773973bc4cab9a78461fabed7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec00296399361b4f83105cf85f841beb') in 0.009284083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=101bcb32bde46fa9774e332f7d541bdf DependenciesID=ee59bf5436d22737a8abfb44829bdf5e StaticDependenciesID=23d349b56c7df3a7b96e636cb65f2554 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG
+  importAddress: Guid(ce0dd3a468aad0f4f8025ad60d9ae41e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG using Guid(ce0dd3a468aad0f4f8025ad60d9ae41e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5acd66f26f8320e71d0e852650838117') in 0.001588 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69b2607f611fdd04840a8c1f750ca7dc DependenciesID=5f26a73f456e9bf2edb58105e9695af5 StaticDependenciesID=b1c0a698f7b4ef18f2d792e7f89d2539 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_5
+  importAddress: Guid(22ff76616a730b241a40e3f8513de6f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_5 using Guid(22ff76616a730b241a40e3f8513de6f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2063ea5b97420923ab9a665db10187d') in 0.002385375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2010b88cff46ca0a45bd5c38ce6c35f0 DependenciesID=35f1a8762175582c9e4d3f2dee2c23aa StaticDependenciesID=a02bc084d6f6cd2316139266d48f4eb2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scripts/Editor
+  importAddress: Guid(330bed5ead61cb04f96581bbf8462cac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scripts/Editor using Guid(330bed5ead61cb04f96581bbf8462cac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '693e0826cc0c0d7bf8ad97a01467e48b') in 0.00329925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c871824fa8dd8a9ca7c63d3138226054 DependenciesID=09653f54e8ca63396b223a12d8c0cfd3 StaticDependenciesID=7cace3d47e4584d55f9c54a2ecc265bc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scenes/Background_7.unity
+  importAddress: Guid(770b279f06ced804d835c4f4263bef5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scenes/Background_7.unity using Guid(770b279f06ced804d835c4f4263bef5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3ef0ce7aef538c99a85a05b0020d6d9') in 0.002408584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ece99a2c8d97f2727a13e85f83198c0 DependenciesID=b98ba758ce1beecfdf60f0a2c16acb71 StaticDependenciesID=3ac31e8098a4fd59739cda7a97b3168b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/GameObjects
+  importAddress: Guid(0a01fac317ff9974a80e649e2a45dea3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/GameObjects using Guid(0a01fac317ff9974a80e649e2a45dea3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b4907e0cd2c5b40a6c7ee46f0e1cfb13') in 0.001902667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82a06d9af857bf583c667f51f9e0e66a DependenciesID=d03b76c856d70fb0bfb5481487894536 StaticDependenciesID=228fbd23295f6634a92df81277108765 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_2.png
+  importAddress: Guid(6bc4aecc560699e4da84155f2318765d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_2.png using Guid(6bc4aecc560699e4da84155f2318765d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '51ba67689ca537a6bea98933743481c9') in 0.008657333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a8979379dd46f8c4e7391cbb67bf344 DependenciesID=76bf8277b93ab3455d819f4376cd91dd StaticDependenciesID=619ff60d65afc6bafc67d4932b9c6bc9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/GameObjects/Ground.png
+  importAddress: Guid(38c1b40b801d23c42985e2937ba848c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/GameObjects/Ground.png using Guid(38c1b40b801d23c42985e2937ba848c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'abd966f48c00b2f8e91be325151d2efd') in 0.007299 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=538783fa7480f9b7deb9d274ec0ae35b DependenciesID=19650057c459870598d942bf73918c94 StaticDependenciesID=2f101eae3b60403d114c716aeab19a4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_6.png
+  importAddress: Guid(9c83841cb29c2f84babf9a018ff1199f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_6.png using Guid(9c83841cb29c2f84babf9a018ff1199f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6a1e8e64792423413555764c7917e74') in 0.007589458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=591f27646d861a40bcb4c0b28771a323 DependenciesID=04cd5ebf1e5dfbeb7135bbbe66241480 StaticDependenciesID=81274498ac0e476ef4f825e6e800304a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/GameObjects/Ground.prefab
+  importAddress: Guid(d2e2b45941602504aa4d9d77aceb4240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/GameObjects/Ground.prefab using Guid(d2e2b45941602504aa4d9d77aceb4240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c800d82046f6eb1f620114fda7453ec1') in 0.029593417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f85287545a749cfab33faa2ee10b2d42 DependenciesID=8bb7f895842f1ab591b842d2071d02da StaticDependenciesID=ba9f648acd06cc3ca58b36aa10686e22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_4.png
+  importAddress: Guid(f040277bccb67cd4ea951f05d4de9872) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_4.png using Guid(f040277bccb67cd4ea951f05d4de9872) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3a5cf5b2111e6d8bdb864578d03b974') in 0.011604458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0facf89d6854cf975856f71e9cab901d DependenciesID=8f4e2f9c16e20efef491dfb885c1818e StaticDependenciesID=ec7c265a6880aa653253c3c5e456622e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_5/Original.png
+  importAddress: Guid(4eff61c6a55eca74381f921c6b711534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_5/Original.png using Guid(4eff61c6a55eca74381f921c6b711534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2f5b43b8e364c26bea8646a549fd188d') in 0.006331542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3671779435e423cf3a77cee9918e945b DependenciesID=1b7dc1d4f46b6c461a68db2851ef85f2 StaticDependenciesID=596f60f8a31f1959a5563f8db067f735 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_1
+  importAddress: Guid(4d541ce78f81eaa46a8bff5eaef65efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_1 using Guid(4d541ce78f81eaa46a8bff5eaef65efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '192dd04eef3d67f6ec70e0e212b64457') in 0.002975541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=536599dd0a4e8fa7cd0bdeab6f186dc6 DependenciesID=60d098388ef9598653f25e9efa1e9f16 StaticDependenciesID=4e2799660b8e2f048f588f6655f5ce3e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Layer_2.png
+  importAddress: Guid(49f9ff925ee6ca64dacf092a9766e27b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Layer_2.png using Guid(49f9ff925ee6ca64dacf092a9766e27b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ffd5941c8f0e68750b655869e0baacbb') in 0.006003208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c917d91321c43dc5c48bae22e64d1b5 DependenciesID=b4bf4c57f950c031a53dee76e4304cb0 StaticDependenciesID=6e1d7aef7cfc871815f96532d5a44f01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_4.png
+  importAddress: Guid(75a51fbf85d75fe469a984aa99672377) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_4.png using Guid(75a51fbf85d75fe469a984aa99672377) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9970ef18befe1d70a6354c218152f2f6') in 0.008609875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9eb9eb60c477fbe989c15c842a375a4a DependenciesID=58f5348f751344f67e76892368c1d696 StaticDependenciesID=4809557cbf4dd9029767e72fdf2b1128 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Original.png
+  importAddress: Guid(01778628def03aa49a6efbd8efef7971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Original.png using Guid(01778628def03aa49a6efbd8efef7971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd92c1730d5550465af80c4973f835d46') in 0.006506208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8496cde47ddaf128e2dba207f63a9b7e DependenciesID=63d030a8fc9efead6dc082449451cc5c StaticDependenciesID=904b393e2266449243925d794366a245 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_2.png
+  importAddress: Guid(4fedb8de82434c34f8bf1a6d9ea4cde5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_2.png using Guid(4fedb8de82434c34f8bf1a6d9ea4cde5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '740446e2e8e4489e16e4fcc6aeb9f6ee') in 0.005376125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bbebec29b2cf2d03a51eabfe19921c2 DependenciesID=5df9bafc436a8f2b4c386a71a58e67ed StaticDependenciesID=4adf1cb8a953dbae22763ba1b48d6c3f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Layer_1.png
+  importAddress: Guid(322856d274b953744a1739424a07f73d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Layer_1.png using Guid(322856d274b953744a1739424a07f73d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e01f244638bb31b5e2346299b92aa14') in 0.006342167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5bd72d7d74c00248afbe3980a6e8607 DependenciesID=ded0f61aac58778856e9d18388918bca StaticDependenciesID=b34dc226ea016d97e583161736f0f948 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_6/Original.png
+  importAddress: Guid(750930e46b0c6564493b705a90b1dd19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_6/Original.png using Guid(750930e46b0c6564493b705a90b1dd19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd8f95635a91200a07d7e9a5a5471fd2f') in 0.008763334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ed0994eafabc55f1cd09bf84d4d6e6d DependenciesID=4a0ac1cc40f48259ae23c82970e08f7d StaticDependenciesID=7b27b46108a954b6ff00f47fd6608a47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_8
+  importAddress: Guid(1ba4a917221ad5a42b25ab6aabe51bca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_8 using Guid(1ba4a917221ad5a42b25ab6aabe51bca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '971e212e4cae4921efec965edf0d1660') in 0.001626375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3b984b45857ab6fe6dca784be95d07c DependenciesID=d45aaf7341d0eb3c3f1e2aa27cbce17d StaticDependenciesID=4b83a77cb2ecd1f2cf202d488dc6f2b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Documents
+  importAddress: Guid(256eecc3d92630b4e827357fd820f22f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Documents using Guid(256eecc3d92630b4e827357fd820f22f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b6f017abb1f51682dedcaf83c0d7bf8') in 0.002578542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a54dc8957033443e3c95405fb9b6a76 DependenciesID=49fdab4ee89597ebd78e7d463f3d3b56 StaticDependenciesID=0d9ea7122383e1e9dfc47e4a8fc5f82a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_7.prefab
+  importAddress: Guid(8e975a32f4ee6d7438266f174e292ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_7.prefab using Guid(8e975a32f4ee6d7438266f174e292ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d585873da1cd0b087f82319116e1b43') in 0.010516458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6a9d85a3ff6eb3db6be9cd42c8d368a DependenciesID=b7552c85cbf8861b8fcae1a250c07ce5 StaticDependenciesID=76d0b9e689df15c10d1cfca8dc94c777 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_1.prefab
+  importAddress: Guid(6e8a6d662bf0560439a74d854292caf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_1.prefab using Guid(6e8a6d662bf0560439a74d854292caf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a25858bb03535267a81d1cadd407640') in 0.0070995 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e80e48abba126ae1e07970ec8fb27fc2 DependenciesID=91d0bf64523ea43db2231101459fb6ca StaticDependenciesID=f980cbade29c7e8508f536200a8d3bd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_2
+  importAddress: Guid(59897af2c12abac4fa0cd9499761d703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_2 using Guid(59897af2c12abac4fa0cd9499761d703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ebd8c0ebeb3eda412cc32d78cc7ff34e') in 0.001661584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81a40d0fae24cdb4915c32513d2a0a5d DependenciesID=6877bf4dfc02e1020dbc8d782e8c219a StaticDependenciesID=b84c15363c0f7553478a66cab439324e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scripts/Editor/ParallaxEffectEditor.cs
+  importAddress: Guid(39937b7af8251004e9417ddc667b364b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scripts/Editor/ParallaxEffectEditor.cs using Guid(39937b7af8251004e9417ddc667b364b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0697745744b0a726147ae08c1171e3e8') in 0.001852083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0ae97ba634db4f30a19e512825d00ce DependenciesID=360d15df68176dcfe3be193383e6ece1 StaticDependenciesID=e54d6d434c8f2a23eceac46c2792e6b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_1.png
+  importAddress: Guid(4704e0eff05838d49b3b94776b269bf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_1.png using Guid(4704e0eff05838d49b3b94776b269bf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96564805927d000a4c40f97a4a255e83') in 0.005354959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e9ae8f40bacad13691eb00cd729e819 DependenciesID=bcf0255bd3fb574f48448ffa661887b5 StaticDependenciesID=73d9c335ecfcc140803556050646fe84 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_3
+  importAddress: Guid(003c79f3f1bd86348b4e19e58710f247) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_3 using Guid(003c79f3f1bd86348b4e19e58710f247) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bebc452c6fb80258e8ba1096c818e7a') in 0.001717416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f377736bda03308fe4cd77dce89460e7 DependenciesID=ea0becb4cc1cb80e676ce872849ae83a StaticDependenciesID=812615c8975cf4d6a97e3bbee6b93d8d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scenes/Background_8.unity
+  importAddress: Guid(7ac7595d533cbc945b1b80fccb5a75f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scenes/Background_8.unity using Guid(7ac7595d533cbc945b1b80fccb5a75f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df08eb212c690dae7ba22dfb3fe57f7a') in 0.002069291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40bd447e4cdb8e26f294c45c3f3eab20 DependenciesID=aa4dada3bbedd180d079074e0164d5dd StaticDependenciesID=4778bfc7addc6cff3bf9505fa0b859e0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_2.png
+  importAddress: Guid(114e869558d5e1a4d944bfc8ad2d6233) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_3/Layer_2.png using Guid(114e869558d5e1a4d944bfc8ad2d6233) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '559dfe96863302eb27ea235f8d6d9ae7') in 0.007234833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5916f94d3041100bcfb5bf799c3fd623 DependenciesID=54f2687ef683d8f9bb6c5c09a84bf8f5 StaticDependenciesID=8e7cd0c005c274bd068218db5d9a939c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scenes
+  importAddress: Guid(f287ad77f60169b4cb43c0bd93703731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scenes using Guid(f287ad77f60169b4cb43c0bd93703731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b84ad838c421190d04bb5f10496a00f5') in 0.001700958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e9848f869678eca31448942c88c7aa9 DependenciesID=3d7ceeb547bbaa07f38db80479cfda79 StaticDependenciesID=44c10a4b1ab9b2b9a9bafc107ea03b63 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scripts/MainCamera.cs
+  importAddress: Guid(83e9ceec6152f3c4c9f378aab866a136) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scripts/MainCamera.cs using Guid(83e9ceec6152f3c4c9f378aab866a136) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d99a7654b34c6d0c3f8e1b127c3b460') in 0.001552916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=691cace41dc8c78db783160b6b53d2d4 DependenciesID=abcb1a51b8e2a8b9359e618994e983cc StaticDependenciesID=37120fa89ae694408978caf028917662 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Documents/COUPON.pdf
+  importAddress: Guid(18c966885344abb41b67a4f5d01bc1b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Documents/COUPON.pdf using Guid(18c966885344abb41b67a4f5d01bc1b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a93f6beb13f40d915c6df75bcb447e4f') in 0.001376583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15d6583dfbf5e3093ab673d5ea16bcf8 DependenciesID=9a66f246b010b4b6e114640b7b6e34a5 StaticDependenciesID=bfc78794d77c29bc0262796ee83361ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Forest Backgrounds Pixel Art
+  importAddress: Guid(81db91a31fe0e4cca954ace6e4e40fd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art using Guid(81db91a31fe0e4cca954ace6e4e40fd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '46d7f86d42bf9edaca0020ff86b0a726') in 0.001728542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf82c01322a39eb2ad6833d4935bb1c8 DependenciesID=c8a191e7d40035b084779606e45a0127 StaticDependenciesID=52c486a2a6af11339b48228bbfecf090 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_6
+  importAddress: Guid(c562aa5ba1f51a849aa21e95787475e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_6 using Guid(c562aa5ba1f51a849aa21e95787475e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2a72cba0e74e606d756df1a90f7f9b3') in 0.001382083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e7fd7988d270eafc65af03281e5146e DependenciesID=bfe8bebbffe9a68b59ab4ac561d54dd1 StaticDependenciesID=23f90226cf21b95ee8f6eda4a4e1a1f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Forest Backgrounds Pixel Art
+  importAddress: Guid(81db91a31fe0e4cca954ace6e4e40fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art using Guid(81db91a31fe0e4cca954ace6e4e40fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0de399b94003a6ea45ba50592d1caa22') in 0.000758 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c191d121627ce298939f222fed9e44d2 DependenciesID=260bd18d5376b29b09b8f487ae097428 StaticDependenciesID=e8f0594d0c940347f8afeb3c75dc51ec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Scenes/Background_4.unity
+  importAddress: Guid(135295e56a3b75741be6300f47e4e262) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Scenes/Background_4.unity using Guid(135295e56a3b75741be6300f47e4e262) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '855ca1dc172f2924208a9f305f983f2f') in 0.002011083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3da75dc89d8d289338d6e739c7527926 DependenciesID=a7031ca79ac628eee6d4907a11159ed3 StaticDependenciesID=b1460757af2f1963ddfc413e941c2b61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_2.prefab
+  importAddress: Guid(4ad496c1fb9f2f64e9ca1ac23bb12a7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_2.prefab using Guid(4ad496c1fb9f2f64e9ca1ac23bb12a7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62b24a42532b67fbdd985c19c71db428') in 0.0043885 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3bfb1de3b00dab237965773f18c2ec31 DependenciesID=2f85dec30a318a85dcbfc472152092f1 StaticDependenciesID=692789f5dac1bf27cac9bcf91622b43c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_3.png
+  importAddress: Guid(d8f1aaff5584d024aab900c63ea4e036) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_3.png using Guid(d8f1aaff5584d024aab900c63ea4e036) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4933289b7307c947e7551035e4eda7da') in 0.00482725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e0286cdee638b39a075c6495c98de1e DependenciesID=b834cf8c9e19c1a524e4b6786baa26cf StaticDependenciesID=04a8d199e51cad07c89f34a21fe3d6b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fdbf000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1448ms
+	BeginReloadAssembly (233ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (302ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (17ms)
+			BuildScriptInfoCaches (181ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (678ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7018 unused Assets / (5.0 MB). Loaded Objects now: 7854.
+Memory consumption went from 177.5 MB to 172.5 MB.
+Total: 9.360500 ms (FindLiveObjects: 0.895209 ms CreateObjectMapping: 0.766000 ms MarkObjects: 5.665625 ms  DeleteObjects: 2.033375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.016121 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_2.prefab
+  importAddress: Guid(4ad496c1fb9f2f64e9ca1ac23bb12a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_2.prefab using Guid(4ad496c1fb9f2f64e9ca1ac23bb12a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e9c70781dbd2747c370062d2d52d5886') in 0.617341875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0e7d7f1d9f4c80a1b48275e91632d43 DependenciesID=96f2795db2cf7b721e97712c466812c7 StaticDependenciesID=46e2a7e2d4814e3a91eae8f5d5038b3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_7.prefab
+  importAddress: Guid(8e975a32f4ee6d7438266f174e292ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_7.prefab using Guid(8e975a32f4ee6d7438266f174e292ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'db89cf21db799f61112d74be87e562bd') in 0.020416792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5ca883713f0fee1cb190826b66da397 DependenciesID=e9e8a3dcebdcda89a32bf0ec819ecc0f StaticDependenciesID=357c052c257ffdbf52b2df82de342f71 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_3.prefab
+  importAddress: Guid(4c7c37aaac028d64881304ceeade5756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_3.prefab using Guid(4c7c37aaac028d64881304ceeade5756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '97a4542155f353ebd7356d059e9de752') in 0.026630542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a85003202fa71a25db1ba0f139ec22dd DependenciesID=bd09b810c4cecc28a3251e02c7675e34 StaticDependenciesID=df549a4cdfdb3f5f2d7f75d27d867033 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/Background_4.prefab
+  importAddress: Guid(0f4e3455bd7c1a3448183385e55656fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/Background_4.prefab using Guid(0f4e3455bd7c1a3448183385e55656fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9dbfa19bb35e40091f0aaf94b64aff67') in 0.016915416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a51010962fad36ac06c42ca95dfbc322 DependenciesID=6275c6ce8c03db2133f44a3dd9213e46 StaticDependenciesID=d6dd87bf783cb01b9c0e1eee2d880eb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.605301 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/Prefabs/GameObjects/Ground.prefab
+  importAddress: Guid(d2e2b45941602504aa4d9d77aceb4240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/Prefabs/GameObjects/Ground.prefab using Guid(d2e2b45941602504aa4d9d77aceb4240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '48363d289ee607ccb5c517b87db059ec') in 0.047403667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8f1e7c22882c8ffc5210da4e754d04d DependenciesID=581d130a2d46c552ee1f6a073d1c5055 StaticDependenciesID=41d00b1aa8f6b3c563ea00f0d18907ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.699490 seconds.
+  path: Assets/GothicVania Church/Environment/bg-2.png
+  importAddress: Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/bg-2.png using Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '96d9be94d589f4887ef376dc85c7bbdf') in 0.325469083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3426e168c6937a68dd71aa7776625a55 DependenciesID=17ff98ffcab14fc273b3835b6dc5bcdc StaticDependenciesID=e45a31d36fa180bfaf1e6ad5da8f6400 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.468399 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/crouch-kick2.png
+  importAddress: Guid(5588a1d29d5ee4a0abd8709439dd6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/crouch-kick2.png using Guid(5588a1d29d5ee4a0abd8709439dd6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '41cc32d31aa366af02df853988d48e95') in 0.008889875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72b8e1bcb945164caa4b32da1c72c573 DependenciesID=ca9f46ba8c1b5c4e69dc074195ce3854 StaticDependenciesID=cb2baaf7323b1b316db12685f855410a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/idle2.png
+  importAddress: Guid(644d0c456f11e4f3a8bfed6bd6c62e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/idle2.png using Guid(644d0c456f11e4f3a8bfed6bd6c62e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '54947e2063afd14e6b1212e106c2ac6a') in 0.006997167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a50c8b92fffa5fcc53550de8056f901b DependenciesID=8f1b1f330ffce9d0691cbaf627c4bfe4 StaticDependenciesID=c264f62ba83b470172c39da1037d0feb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/punch3.png
+  importAddress: Guid(978f3b887382f4ea7bb4a05ccae8d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/punch3.png using Guid(978f3b887382f4ea7bb4a05ccae8d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cf476898fcb9b6e2cd372ce485646421') in 0.006927708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18fe9bd2d03e897b5566fc37f823877b DependenciesID=1730936d0db7e111da0450654b5ee6a6 StaticDependenciesID=2e8de5a812861f6d57495b6617348173 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/flying-kick1.png
+  importAddress: Guid(aa2239ea2d85b4985b011ff36565aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/flying-kick1.png using Guid(aa2239ea2d85b4985b011ff36565aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '99ddbe2d0a780c5079303fa86cd53b4b') in 0.010757791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef8357c7722f95c3d54b0a9fb5d6c6cc DependenciesID=71169aed612aa52171f93a949d093ef2 StaticDependenciesID=90f84529f0b73ba27dd39766a891d677 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk1.png
+  importAddress: Guid(dd247f222c6264ca39475b75487a73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/walk1.png using Guid(dd247f222c6264ca39475b75487a73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ececa8a8250468bbe54680d47a9d11ea') in 0.008632875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd460c56c7075310e33d95bc16a8815f DependenciesID=e714a4e8f985aba4abe9fff3645262d2 StaticDependenciesID=99b9ad11dc96ef5f14688a13edde7515 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/jump2.png
+  importAddress: Guid(ca16ace20bd0a4e8fb0eb791a94a52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/jump2.png using Guid(ca16ace20bd0a4e8fb0eb791a94a52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5c4944526507d256d11d1e9d76d57dc3') in 0.006364708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eeec1f35e29e62d328749edbba9e8120 DependenciesID=4bfa9c33f47181647aa11a71eac56a42 StaticDependenciesID=1758c81642b67ff443b15fd8c1581627 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/hurt1.png
+  importAddress: Guid(c34d8f018a379485899213a80ea48319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/hurt1.png using Guid(c34d8f018a379485899213a80ea48319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6e78fadd6e0a332109fee694ae6c5b75') in 0.009728208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2d17823a0a0f2c754e5120e72c88e22 DependenciesID=08246f30853b205ecbf1d406c35b29af StaticDependenciesID=b56aaa1844ee857ab9ff4e98b956f93d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/kick2.png
+  importAddress: Guid(4d598155a80214f94afdb6008f1f3d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/kick2.png using Guid(4d598155a80214f94afdb6008f1f3d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b1a1b4a3704fd62b6e39cd1f66d3afbd') in 0.006553833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2904aa65ede85169a9bb1f8104d4cac DependenciesID=a04ef543bb5781ce5eec45ad457b209f StaticDependenciesID=b55e2bbc471ec0e82be5f5c32b7d0b07 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk5.png
+  importAddress: Guid(ca4dc75c4cca84658b20e61c406cc5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/walk5.png using Guid(ca4dc75c4cca84658b20e61c406cc5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bc040286b1ea3488c3dd1da99d2eedc2') in 0.007568292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=851d192db79dcf95c944fea92870d1a0 DependenciesID=f9370f5e80bc59306e153f4bc40069b2 StaticDependenciesID=5b96e67a5fded77cf02549a65c71e92b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/fall2.png
+  importAddress: Guid(17e914b2075b74d86afa9a2db24bede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/fall2.png using Guid(17e914b2075b74d86afa9a2db24bede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'eba3fe9246743014249f7ff320fdbe9f') in 0.005836958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=515bd111b91339a19e05128ca5b693cc DependenciesID=19df78fe8befbf9d27eb0683fa7b62aa StaticDependenciesID=5554dff6614623c6e702388049892488 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/crouch-kick4.png
+  importAddress: Guid(4118dc37bb9534c589a2424dc034ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/crouch-kick4.png using Guid(4118dc37bb9534c589a2424dc034ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd1beb526120bf16e0e65485792ef74b9') in 0.007413041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31cd4477eb2c2e0ec2ef0207fe49c6d8 DependenciesID=7cf9b799c958ee8b14beace8ad53239b StaticDependenciesID=9990cbb7f2a6a5442946a06a4bdc734c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/hurt2.png
+  importAddress: Guid(c83d22e2696f0452ca051dfbee91c509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/hurt2.png using Guid(c83d22e2696f0452ca051dfbee91c509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd0cd4f49cc9ba9ebc7655d9d2970062a') in 0.005416417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=825870222489819d4a4e59c568f8da4c DependenciesID=c77ff1f3c350f7f26d11b768b82632cb StaticDependenciesID=be9d95996e5485e42e2564939f33c7cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/punch5.png
+  importAddress: Guid(00f02830bc19842adbcc4fcde20eb341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/punch5.png using Guid(00f02830bc19842adbcc4fcde20eb341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aba1067ecc5e8b8e4b0bb8d14e60ec9d') in 0.005492167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcb43f5a0494deb215c3a3a9b55a784c DependenciesID=d2011184e9b2029bc8172a85334f5a51 StaticDependenciesID=c0e7595bfb3b0b6a5be34a7f5d0c9c61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk6.png
+  importAddress: Guid(6d15c03edf63546959ebef5c555dc1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/walk6.png using Guid(6d15c03edf63546959ebef5c555dc1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a875827719ff55a52434c2bf150551f') in 0.006652042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4320aad5b5f341229f4cff596b01f405 DependenciesID=6c8f24ae26961e76e9d5ee086753f98a StaticDependenciesID=9b7a7208dd105b4c9ecb8512ae1110eb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk4.png
+  importAddress: Guid(afbdf7087d4a245c4b7e071b61787f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/walk4.png using Guid(afbdf7087d4a245c4b7e071b61787f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd6a256cc3198c6f2ea7759959cd62dfa') in 0.005247792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0daffa96f74de4e97e0f59cdc01b24c4 DependenciesID=d7beb874d88100a719f9582c61e5e2f0 StaticDependenciesID=0963b3cf625dfb85e9dd949cc5202b28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/punch6.png
+  importAddress: Guid(45d6ae8e156324f6dabb024742201060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/punch6.png using Guid(45d6ae8e156324f6dabb024742201060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '57d983b16d282818c55522466a33fe4d') in 0.005104125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92c43799facf83c5a13ce421546142ec DependenciesID=7015f7d6ea2917b09bd3c6eb8b60cedb StaticDependenciesID=3cf07007471d0295b3182da36ae553ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/jump1.png
+  importAddress: Guid(5c862507d62d14de4b3b26ea2191100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/jump1.png using Guid(5c862507d62d14de4b3b26ea2191100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '31e5266485216c09140e98eae4e74405') in 0.006109375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a959890beca5a060c3ae05642259324 DependenciesID=bf042796d4ac5170c764ef424feabcdf StaticDependenciesID=ca3a10310ac8972b51e01319e53117b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/flying-kick2.png
+  importAddress: Guid(89eb02d4b3eb54763977e974b7c54a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Player/flying-kick2.png using Guid(89eb02d4b3eb54763977e974b7c54a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4ae5950f0be9c3bab0a90883bdccbfdc') in 0.00611575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8edc0f557578dd0551a04b4c442666d7 DependenciesID=8e48ace1ce87b73fab4d857a254faa14 StaticDependenciesID=ddb4d7cff14022b5fbeacd423980aa46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.481932 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-2.png
+  importAddress: Guid(4694483d57006449b83361c219c4f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-2.png using Guid(4694483d57006449b83361c219c4f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dbc18cbf95ba8160309f93fe6aa92e48') in 0.026578667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2420fdc0192ad382b03df1029615e813 DependenciesID=a824cfc3a9806f93f815f098ba4b4f28 StaticDependenciesID=18fbc5f3d22c76eda44d6bbfd7c2e759 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.156469 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel2.png
+  importAddress: Guid(8227eed74717840efab40c23d2406b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel2.png using Guid(8227eed74717840efab40c23d2406b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7ff5caf8c3cd08d188b95503ac101662') in 0.007404666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44fcec643b6366e858cbbd3346932441 DependenciesID=024292bb4c31ce3acd2c7437bc2c219a StaticDependenciesID=e97be7563790915ffd9421e7c7aeaceb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel3.png
+  importAddress: Guid(66378c6e1c74a4e1598202a298a855b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel3.png using Guid(66378c6e1c74a4e1598202a298a855b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac588f9e6cc6554d084fa4fda12eac8c') in 0.010302166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=619ae8ffc6e86d485a0cb40dc4a8cd36 DependenciesID=89e1fc480e371ac447e237f8a8bdd865 StaticDependenciesID=ceb39ae0a80b367e414825b6dbb9cec9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel8.png
+  importAddress: Guid(55483373304e84a7c821d5390de99fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel8.png using Guid(55483373304e84a7c821d5390de99fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8e15a9bfeff6e032ab7e9923064740bf') in 0.006597875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e0131cb377e84debf0b7efa764998c9 DependenciesID=1ce073b74b9fda3c6807aa712949b2a2 StaticDependenciesID=eabb1933129fc9ff518c583a30f7c03c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel4.png
+  importAddress: Guid(3be7eb8ca5bd045a5b1955571b2b357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel4.png using Guid(3be7eb8ca5bd045a5b1955571b2b357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8980492c89063db71635db3f17a568ef') in 0.006510083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbc688a3cccced68f3140432118f3a6a DependenciesID=71c8904a661b1374c97e31b22e5d6885 StaticDependenciesID=61dd149441030dc0914567bd86ed8b82 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.802355 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-2.png
+  importAddress: Guid(c387fe7fa73be4111aad07557b418792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-2.png using Guid(c387fe7fa73be4111aad07557b418792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '207db35570aa4933ce89ca03422ef8a1') in 0.00896375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5df0e8f80fa7beab0ca58cc7dc88abbe DependenciesID=ca0dc44aa67d1306b6073ee68391b56d StaticDependenciesID=91e104e059e8c3e51223f7a117e4ed1e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-4.png
+  importAddress: Guid(68bcece766a354e5485d8c78f0517331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-4.png using Guid(68bcece766a354e5485d8c78f0517331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '40cc139c2ac17563ea5054fea77eda94') in 0.00551925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b150d6e5f40ba93ae224b9f297b8416 DependenciesID=58381705fa06051ef1fdc26752710939 StaticDependenciesID=eac92860fc9ef8906214872029bef9da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-5.png
+  importAddress: Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-5.png using Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7bacb555691395f394d6e121ea6a27ec') in 0.005833667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b84c353350165aec5fa8ba1bb91836d DependenciesID=2264f7851033edbcfdffd4936aa8a221 StaticDependenciesID=cfe17141ca749b2cc5067b2461eec948 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 537.170938 seconds.
+  path: Assets/GothicVania Church/Sprites/Player
+  importAddress: Guid(5ea45a4fb406943cb9d94e5dd3a3a496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player using Guid(5ea45a4fb406943cb9d94e5dd3a3a496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de40530ca12362c6260ac6e6785ee0b3') in 0.162446667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2403e3d9e452070f20da7dc4ef32058c DependenciesID=b6c9e4d029d322368c8bb171a5451743 StaticDependenciesID=3aa047867e4618ca302a852198578421 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire6.png
+  importAddress: Guid(47e952a4b77a047849c7150b9fdbca72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire6.png using Guid(47e952a4b77a047849c7150b9fdbca72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93c0ac6ffa12e281c10895151da73119') in 0.158072625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aaab84eab70f99280323b7a2be669c4d DependenciesID=6eed34e057b228660a6220f7831bd986 StaticDependenciesID=667140ab342dfdda8aa807af73266505 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-2.png
+  importAddress: Guid(4694483d57006449b83361c219c4f27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-2.png using Guid(4694483d57006449b83361c219c4f27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '05b73f8b8c0efcefd3d4f145b6538a75') in 0.005461542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2da587ae69568348f299fcd8eeb6a3d3 DependenciesID=460939a163b5a0e92889b5a1c7b15026 StaticDependenciesID=28c6a766a9365befefd26bb1422bafaa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel8.png
+  importAddress: Guid(55483373304e84a7c821d5390de99fdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel8.png using Guid(55483373304e84a7c821d5390de99fdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '40ffb8912f2e03cc4da682cbc8ef479b') in 0.006395667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=086a075bb1f325b69741a757eaf423b2 DependenciesID=da32b945dcb3cce636263d02f338ab67 StaticDependenciesID=a0f9dd4d756dc1c627e3ca2494e79f5f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire2.png
+  importAddress: Guid(b49ec68784d154909a60e813b802b30b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire2.png using Guid(b49ec68784d154909a60e813b802b30b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '25a90882f3e09d9f393f138e477ac230') in 0.005217125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a43f22bf8bae9406b5b7aa3b82023784 DependenciesID=f004b6f1828bf79ef4aad2e3314fee09 StaticDependenciesID=639e7bd66eb60874f34ba40ac02e345c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/idle2.png
+  importAddress: Guid(644d0c456f11e4f3a8bfed6bd6c62e5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/idle2.png using Guid(644d0c456f11e4f3a8bfed6bd6c62e5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5be1d8d2520f4e16e928cf3832f54a1d') in 0.004910875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5211003bfdfcb1860021697cfdfaa025 DependenciesID=0275386c0cede83e83fbfeefad2f622e StaticDependenciesID=531a7b73000ed49dc2cc74888c43392a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-2.png
+  importAddress: Guid(c387fe7fa73be4111aad07557b418792) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-2.png using Guid(c387fe7fa73be4111aad07557b418792) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08f3c681576c4fc98f05a9baca196395') in 0.005228542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b90e38a046fa28c7515f9d07c80774d DependenciesID=6a274974f3d81df3e5614e181833e679 StaticDependenciesID=457d688f2fd80d9e0b228ac3f41c2ee4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Environment/bg-5.png
+  importAddress: Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Environment/bg-5.png using Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd23d85dad3628ee188bb3e7af41ce8b7') in 0.005029541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f5eb999d2dab442f99731f61955063d DependenciesID=9232b96c026691680f40784324a1107d StaticDependenciesID=d14cd650c631727941f976b550fab27a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc/Fireball/fireball2.png
+  importAddress: Guid(764d28acbc3994af2873c2c42bdab986) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc/Fireball/fireball2.png using Guid(764d28acbc3994af2873c2c42bdab986) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '651f4bc7f7637d02ff4751517fb95c5e') in 0.005592083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bc343cd3bb39ff86b1b2eff54a8b6b2 DependenciesID=f3279b9439e3630c6a5db41a0c04f50a StaticDependenciesID=a277699a1c4785a4af0fe07a7b67a1d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-1.png
+  importAddress: Guid(f81c1c89a83ed49ba9dc43e5434a3531) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-1.png using Guid(f81c1c89a83ed49ba9dc43e5434a3531) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9869baa952107c95a21291a56567e142') in 0.006552875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c3c3853d5ac534202425c5b36d0d167 DependenciesID=68e8093228a37b601bf10671d9c5b5a9 StaticDependenciesID=980312db0a97a5182e01fe7cf59a1075 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/crouch-kick1.png
+  importAddress: Guid(e9b41e0420455410cbc248c9521394e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/crouch-kick1.png using Guid(e9b41e0420455410cbc248c9521394e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '45baf2c5aecbfe166fc64535d7fc4b11') in 0.0054575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8db3e490d737fe595aa6c8a81acc6985 DependenciesID=64935f753824b4dfe73d79149f5ef816 StaticDependenciesID=6fbb99f243d2b8041d53c569f7836b5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-6.png
+  importAddress: Guid(13f4a1907b0bf431797e44979420ba8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-6.png using Guid(13f4a1907b0bf431797e44979420ba8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cf4c5918eac426fb5d04a4d013a4dec2') in 0.004969375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a0c383da66bc7070b5462bbf5d4ae1a DependenciesID=8140b211021246ea2d175ad6cf148959 StaticDependenciesID=c02307b9200a06fe82f62f80cb65827c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/idle1.png
+  importAddress: Guid(fdb550509659347d4b4c37d05c566ad2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/idle1.png using Guid(fdb550509659347d4b4c37d05c566ad2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f22c095d7e946a2dad7c1c07b468a1f') in 0.004590458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e04100aad8cd2fcdaf784b1c18479d96 DependenciesID=9f8e49e815b35a66885d57baca9241b1 StaticDependenciesID=f852029e6b458c02debba55a83b8c422 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-1.png
+  importAddress: Guid(0c95faed3aa5a43d3b19f112f0843c87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-1.png using Guid(0c95faed3aa5a43d3b19f112f0843c87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37a6f08ffa4dfcb0174a8ac32ddce6d0') in 0.004660917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19a583952334a9b0728a58178fd3083e DependenciesID=0c8cd4158bddcbc765c519d70ebc6d47 StaticDependenciesID=bec35d9c32152ed4de34b3483366d1c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul2.png
+  importAddress: Guid(4daa8d9424fb449af8be4f99d6688c8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul2.png using Guid(4daa8d9424fb449af8be4f99d6688c8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '61eeea8a5a8a172f5066e7fe8b048d90') in 0.005902042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=206a01d43b2d9a0af9cb91ef9ed2ca1a DependenciesID=abc656ff55b65eb43aadba2ff522a105 StaticDependenciesID=cda16cc65344d34e16f1c2e9e385d20d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul8.png
+  importAddress: Guid(7d9c9cae814e7471688156a3807193d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul8.png using Guid(7d9c9cae814e7471688156a3807193d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b922947e8ad28754313435f17d71579') in 0.00482175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa3b06ad88c11ee7b08f3a399fd931cd DependenciesID=a3fdccf4bb121b97cca86ebce19522e8 StaticDependenciesID=024378930dbcb04ca4a4f71a476d2080 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk5.png
+  importAddress: Guid(ca4dc75c4cca84658b20e61c406cc5b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/walk5.png using Guid(ca4dc75c4cca84658b20e61c406cc5b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '77e7116ef0a7c74bf573b584a4cd8a00') in 0.005013125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=487ff276ac60bab51b905da7eb19fb6f DependenciesID=afef45ec1882a13d73d6f929e9b2a71a StaticDependenciesID=d2d996547c9eeae03f28b9dd846ea055 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk3.png
+  importAddress: Guid(79c2c726d52814a1c80e5bb3a4627fd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/walk3.png using Guid(79c2c726d52814a1c80e5bb3a4627fd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '42060ecc9d4c82af0569d623680f4b45') in 0.004910167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dfc63d6f852dd1c43b7a14547d02596 DependenciesID=7e5ec5214dda01b4429ac6915ef32d83 StaticDependenciesID=fd164be7dfacf1e9012de87956a794c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire7.png
+  importAddress: Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire7.png using Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a58a8dd1e33045609bf461a5c5e4ed78') in 0.005725959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41cdb514be8f4af5d2c865a8d7a0b4f2 DependenciesID=f0a5d008efd5ce8fcfb865ff7665c105 StaticDependenciesID=b96da4436d70466d9ecf6ceb0d1a8995 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GothicVania Church/Scenes
+  importAddress: Guid(c471a090adba445bbab4912744c42f24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Scenes using Guid(c471a090adba445bbab4912744c42f24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '22d8db3030c67584002ec0b67d2b6772') in 0.00207925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a7142f00d225eb2309e0a8a4ebbb12c DependenciesID=b321a1a8616836ae57c35b1b55b2eb07 StaticDependenciesID=9f66babb9356c10fe406765b7c1f7adf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GothicVania Church/Environment/bg-2.png
+  importAddress: Guid(4d106ce971166481faa32de0ba5145c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Environment/bg-2.png using Guid(4d106ce971166481faa32de0ba5145c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e2e95047d18fb673d5e5a625b02a6d99') in 0.004855417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6ebcb1ce0c9ad32b08bae50962b94e1 DependenciesID=f10d53b9592db586f5a0061cdd744145 StaticDependenciesID=0c916585636c99d8f5baa4622df59824 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc/Enemy-Death
+  importAddress: Guid(a96c9dd2329cb438d9393051256ff85e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc/Enemy-Death using Guid(a96c9dd2329cb438d9393051256ff85e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf87a1062d14f48e1fd4aba306f2865f') in 0.001964833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=688e46d20b1a561d48639c30449f159a DependenciesID=28ba6e563dcf786cfc09c947506e9521 StaticDependenciesID=38e793e565354d19116789a5419a4c00 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/punch4.png
+  importAddress: Guid(aab807ebc17334cb29e119f602ccf1b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/punch4.png using Guid(aab807ebc17334cb29e119f602ccf1b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '999ac40f231f22dddd73bfec5bed5a33') in 0.005706333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c07a6422d7f47534be3acacde6924449 DependenciesID=1bb3c4b2069a9d8ddac2f850bb94e511 StaticDependenciesID=117be70e2732d860d10fb54f76206f0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-4.png
+  importAddress: Guid(68bcece766a354e5485d8c78f0517331) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-4.png using Guid(68bcece766a354e5485d8c78f0517331) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f1d054408a010903fcb86df55a5119d') in 0.004847167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ad59a23add227826c132b588d572f2d DependenciesID=9f3a4e49655b77c1fed09e846c86205f StaticDependenciesID=fa4dd2135e5e78a2f522772d46f7c557 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/jump1.png
+  importAddress: Guid(5c862507d62d14de4b3b26ea2191100f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/jump1.png using Guid(5c862507d62d14de4b3b26ea2191100f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '18b56ebc5163bc55f663371033d6d94e') in 0.005473833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=321a61ea730cd2f2363804e19060af37 DependenciesID=bf7a2e82e22c8c76fee6fc205fcf80cd StaticDependenciesID=ef5c7f57faf7d3a2d22a7c10502a7fef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/punch1.png
+  importAddress: Guid(8c2b057cc49584bffb4781471ebcc7ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/punch1.png using Guid(8c2b057cc49584bffb4781471ebcc7ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dc8df3e09a82c71b63642eeabddd2cda') in 0.004896834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5393aa951010716d88530250c8891283 DependenciesID=e0a69c73e18b94b97951f52b6df75767 StaticDependenciesID=503b0301efde800f47a9518228804114 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire
+  importAddress: Guid(19f515b1a54a34364be160c312584c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire using Guid(19f515b1a54a34364be160c312584c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8aacecfa8bf89c2110bda40dcc413db1') in 0.00184425 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52fb16893e05009d5e1661ccfbca641c DependenciesID=766ede946288c3a0ef6c22f00de4af71 StaticDependenciesID=f35a428b92754e73872bd6ed3b8c5764 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church
+  importAddress: Guid(f3cfc6301b119427789a40f2259e3296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church using Guid(f3cfc6301b119427789a40f2259e3296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '22942540b45c3e9b10ccfd5610b25198') in 0.001848625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1bcfe8f328b5408284685a1e8295a3c DependenciesID=5c21e1718feaeb7f1703dc924bddcaae StaticDependenciesID=7df5d8feb3c1a56df0077cc3c5406147 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-3.png
+  importAddress: Guid(cf4d6ac7b070d484fa7b90c92bbcba93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-3.png using Guid(cf4d6ac7b070d484fa7b90c92bbcba93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ab3521e9f0a9e4bca0244cde49d9184') in 0.004645375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1aaaeaa79121dc764859133c20dabaf2 DependenciesID=d5f51a9256e0c1b185bf4e87a4ae7b49 StaticDependenciesID=c4e53ca39ebfdac06703c6d9d022ccba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GothicVania Church/Environment/bg-1.png
+  importAddress: Guid(4088e222fbea240ceb318507c580aa2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Environment/bg-1.png using Guid(4088e222fbea240ceb318507c580aa2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28e90adb931a482a3cfaa1f3bdd33f79') in 0.007466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=969b06c972c374dab12362e2261dac27 DependenciesID=0cf1fbc5868d0f193d6f31bead93abc7 StaticDependenciesID=11ed66f1681ba16aa9f0672ee835627b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul5.png
+  importAddress: Guid(a338231a359fb437e8b7793dd9c01504) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul5.png using Guid(a338231a359fb437e8b7793dd9c01504) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad93f76d600275390c839e19c7550652') in 0.005550166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b8cff32c92f5667a68d8c6be3a055c1 DependenciesID=199420639d19387f830fb6fe00a6b2b1 StaticDependenciesID=64b04e1011ffa8b5ccd6fcb633f31ea1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/flying-kick1.png
+  importAddress: Guid(aa2239ea2d85b4985b011ff36565aedb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/flying-kick1.png using Guid(aa2239ea2d85b4985b011ff36565aedb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5961877563c795b0c067dcaf6b85d00') in 0.005069167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3bf68241c2b1f87aac758a6afc679fac DependenciesID=fd5d5b9fc473650df027bf368ff5f85e StaticDependenciesID=40ebf8ce3770da3aeac6e518ce4483de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GothicVania Church/Scenes/demo.unity
+  importAddress: Guid(9dea8406e5e254282868c83e30be111b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Scenes/demo.unity using Guid(9dea8406e5e254282868c83e30be111b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b28509103d5a0b644049c7a900ef5e1c') in 0.009637666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d65a93bfac575cdf1991eed5e52b5c6f DependenciesID=2666e0a6c2ee35a693b4934eb470b454 StaticDependenciesID=26b8f9d614e0433599ff3d5c8f9f255d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GothicVania Church/Sprites
+  importAddress: Guid(da08416cc812547178a26bc586017b5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites using Guid(da08416cc812547178a26bc586017b5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fd87f373aeb08ebb144be5b42f5e9ce9') in 0.00153825 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8feb30c88dfe850bd84430fe4440d98f DependenciesID=5e8b05992edd8bc84f2975a09d1d76c5 StaticDependenciesID=a0d7f0bc9505d6a3a488385851cc37f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GothicVania Church/Environment/bg-3.png
+  importAddress: Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Environment/bg-3.png using Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '989af62e2f16319355c0b06f82d8e74b') in 0.005267833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5409989f630a941025388c6da9643585 DependenciesID=c325f529164d64e871de35bbbb6a7519 StaticDependenciesID=2919056c8dac82301d80c5aac0f44306 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/crouch-kick2.png
+  importAddress: Guid(5588a1d29d5ee4a0abd8709439dd6bf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/crouch-kick2.png using Guid(5588a1d29d5ee4a0abd8709439dd6bf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2eff49fa5a3673cbe879d8fbdc9be131') in 0.004712542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f757f73061ed74b3ba5dfa0cc31b7fde DependenciesID=ab385f4a82af55745989a4931a77640b StaticDependenciesID=ceb60d878689d4e9a0828207fd7b9c61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel3.png
+  importAddress: Guid(66378c6e1c74a4e1598202a298a855b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel3.png using Guid(66378c6e1c74a4e1598202a298a855b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a1e8d3872f89792e0e0fa9c2f4f0e24e') in 0.004299875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d066c4ca12fcf35fd5cbe936c641265a DependenciesID=766ba8088a5d63ee2a594f5a1e88d900 StaticDependenciesID=506f724bdf8ff9e69be5a2146ef438fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/walk2.png
+  importAddress: Guid(2298eed038e8b4a3089b59aae0afbbe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/walk2.png using Guid(2298eed038e8b4a3089b59aae0afbbe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc1bde2a8aa517e605ccead6f21f83b6') in 0.005441875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=678ce9e28a3396b61cfae92ceecf175f DependenciesID=c139885c22f713bbfac89d2c01352a83 StaticDependenciesID=75912a0fba79a507de95eaaa0c643635 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire5.png
+  importAddress: Guid(1dd4ddef074614c348aac963e1e72bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire5.png using Guid(1dd4ddef074614c348aac963e1e72bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '121612a632765e286eb6855c139bd530') in 0.004778625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcb282c7bb8bb85ba8d7d3e5df7d67ed DependenciesID=53fba0be738e9c7b21f46422cf07debc StaticDependenciesID=71c2d043390783eb71cf051119fbe45f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle
+  importAddress: Guid(6bb6600d826ed42248d07c15c0fc43b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle using Guid(6bb6600d826ed42248d07c15c0fc43b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7eba408ae8f1bedf41397974ac393a64') in 0.002099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7c0ddc8f6d8d362c77018da35974778 DependenciesID=df5a6c0ec3d3b3ac7d3a5ff133fb73e2 StaticDependenciesID=4ba843f9b6787d244ce86643755374be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire10.png
+  importAddress: Guid(45d89eb64f4af4d5c907c7c5ef5b9cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire10.png using Guid(45d89eb64f4af4d5c907c7c5ef5b9cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'baa56018172307e6ec2c866de587e4dd') in 0.004605792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60071df6ef03516f2390a133d4a9cfa6 DependenciesID=2c1d6f7fad9a996a97fdb81ed99d7ed8 StaticDependenciesID=11da539e5d412c52548021b4aa8c768b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel5.png
+  importAddress: Guid(73ed7f313e86e4564afc2c7b474d707f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Angel-Idle/angel5.png using Guid(73ed7f313e86e4564afc2c7b474d707f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6aec232d05bae79e63b8464d1317d04e') in 0.005157958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27449eab8fdad32d382e1d66f202d7a6 DependenciesID=e076d9599c9aa8edcfe02638dc428c27 StaticDependenciesID=bb0934110ab7aed66f1f5ee4b92d5b4b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-2.png
+  importAddress: Guid(05693a8fd758747cab019551188b0447) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-2.png using Guid(05693a8fd758747cab019551188b0447) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86ae3df99e5a7ca96f3116127f0906f9') in 0.005232542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eccba7eddcd1f8b41c46449f0ee94490 DependenciesID=ddd1d7f34866c09ab63276bf786c3513 StaticDependenciesID=8b3c43e53638369b113b69d930e374c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-7.png
+  importAddress: Guid(e4dfb8af17a354fd4a5278f311c19e03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-7.png using Guid(e4dfb8af17a354fd4a5278f311c19e03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6901ad9d34749db42d2ecaa1bf4135aa') in 0.006134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=636d71fad8bf927356cef041d7f7dbda DependenciesID=3b56f08e51109f03412309d024f53e67 StaticDependenciesID=8a9f773b06c38f62b6cd4ca61ef62dba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-3.png
+  importAddress: Guid(f7937dea06d104f4c9250daee53b1812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-3.png using Guid(f7937dea06d104f4c9250daee53b1812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65a2e442bc408a02f6a2c13fdcbcb7c2') in 0.004503166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1112894e69232db5168bc64309be145c DependenciesID=cb1b8b4240e9d5b185e305ed3b196380 StaticDependenciesID=c8546fd608c2da87e66031b822eddaba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/fall2.png
+  importAddress: Guid(17e914b2075b74d86afa9a2db24bede8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/fall2.png using Guid(17e914b2075b74d86afa9a2db24bede8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b58f1deb470ca59aad49bb44dce2bf49') in 0.004761166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92bc22f8454f981e119126e0e06f8be0 DependenciesID=391429d2ae0cd5354a2ecb3355567dbf StaticDependenciesID=fe078e8f5718cb4bff1ca36cbd2367a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/hurt2.png
+  importAddress: Guid(c83d22e2696f0452ca051dfbee91c509) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/hurt2.png using Guid(c83d22e2696f0452ca051dfbee91c509) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6434ebfdd6d8b36f8953cb1afd5daefe') in 0.003967541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9f56a5102f2cb7d99f3cfbeb49489eb DependenciesID=90a149a98da905f317360f092acf87b9 StaticDependenciesID=011992b00ea1ecca181a59a831fe46ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GothicVania Church/Sprites/Misc
+  importAddress: Guid(af1f99b5cc528444486ad4738658d79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Misc using Guid(af1f99b5cc528444486ad4738658d79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '047383ce96698b0dede9a5e247569269') in 0.001697666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1ff28fd1ce5386e4cb4190d4f739025 DependenciesID=85620fe33bb11ed86b3c8282b3f84a34 StaticDependenciesID=a889b8b1f38968abf91065b63529ffd4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul3.png
+  importAddress: Guid(b610a4c36c47d408183676f30f03d10d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul3.png using Guid(b610a4c36c47d408183676f30f03d10d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4952589f3259f54273e9257b6a1a014c') in 0.004559 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5733c26ae71a5e42dc82da6f6b23be65 DependenciesID=05a0d4b54e446a5b726aa6a22186276f StaticDependenciesID=00cd77672fe8aa09f1b97b9dd41ea511 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/GothicVania Church/Sprites/Player/punch2.png
+  importAddress: Guid(2b7a26e786ce647949fe93bc248c77ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Player/punch2.png using Guid(2b7a26e786ce647949fe93bc248c77ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7564676a0c870729489b7f0faad7f5d2') in 0.004573625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69971f43e54a397f1b1740461f3305e3 DependenciesID=4ccdc1361b0ba8176d3578cad7539caf StaticDependenciesID=b0de67a749ca9ccf851873cdcf01ac88 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-5.png
+  importAddress: Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-5.png using Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd99ab3420f24576fbbcf581d3f10726c') in 0.004259542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b47887904727ca14595a9e3c2c54315 DependenciesID=604eabeb0dd4cbccbd58150fa21cccce StaticDependenciesID=10cf2cf18c5cbfc6a247b21ddaeec0c5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7009 unused Assets / (4.4 MB). Loaded Objects now: 7965.
+Memory consumption went from 178.7 MB to 174.3 MB.
+Total: 36.436875 ms (FindLiveObjects: 1.100083 ms CreateObjectMapping: 0.345000 ms MarkObjects: 33.171042 ms  DeleteObjects: 1.819084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16b5e3000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.867 seconds
+Domain Reload Profiling: 2189ms
+	BeginReloadAssembly (605ms)
+		DisableScriptedObjects (106ms)
+		CreateAndSetChildDomain (172ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (491ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (31ms)
+			BuildScriptInfoCaches (206ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (874ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7019 unused Assets / (2.9 MB). Loaded Objects now: 7896.
+Memory consumption went from 188.2 MB to 185.3 MB.
+Total: 10.743083 ms (FindLiveObjects: 0.848375 ms CreateObjectMapping: 0.539709 ms MarkObjects: 7.287416 ms  DeleteObjects: 2.065875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.298109 seconds.
+  path: Assets/scipts/player_movement.cs
+  importAddress: Guid(64aae59bb6c374d1b92e30edc716e496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scipts/player_movement.cs using Guid(64aae59bb6c374d1b92e30edc716e496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '72dd895d30d2ec9c189097e48445f297') in 0.003838542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6659c5ed5e953dc5bfaad1ea77560db DependenciesID=f2170722135df84086cb4b2bf7c30828 StaticDependenciesID=1e3ae223d892a632c69b7851eda72851 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

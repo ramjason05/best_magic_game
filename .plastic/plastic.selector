@@ -1,0 +1,4 @@
+repository "best_magic_game_ever/best_magic_game_ever@1375917086637@cloud"
+  path "/"
+    br "/main"
+    co "/main"
