@@ -13,6 +13,10 @@ public class player_movement : MonoBehaviour
 
     private bool isGrounded; // automatically set to True 
 
+    public bool IsMoving { get; private set; } // Property to track if the player is moving
+
+    private Vector2 moveInput; //2D vector storing input , x/ y axis
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,26 +26,21 @@ public class player_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float moveInput = 0f; // Idle
-        if (Keyboard.current.aKey.isPressed  || Keyboard.current.leftArrowKey.isPressed) {
-            moveInput = -1f; // Move left from 'a' key or left arrow
-        }
-        if (Keyboard.current.dKey.isPressed  || Keyboard.current.rightArrowKey.isPressed) {
-            moveInput = 1f; // Move right from 'd' key or right arrow
-        }
+          //Apply horizontal movement,  while keeping same y-velocity
+        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
-        rb.linearVelocity = new Vector2(moveInput *moveSpeed, rb.linearVelocity.y);
-
-        //Apply horizontal movement,  while keeping same y-velocity
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
-        //If player jumps if grounded
+        //Jumping Function
         if ( Keyboard.current.spaceKey.isPressed && isGrounded )
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
         }
-
+      
+    }
+    public void onMove(InputAction.CallbackContext context)
+    {
+        moveInput = context.ReadValue<Vector2>();
+        IsMoving =  moveInput != Vector2.zero;
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
