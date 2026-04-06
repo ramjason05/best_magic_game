@@ -254,3 +254,131 @@ Received Import Request.
 Start importing Assets/scipts/player_movement.cs using Guid(64aae59bb6c374d1b92e30edc716e496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3fbec15cdbd70be17bd245966330d890') in 0.070499417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd333d60d7427a20d3dfa22ad19f364a DependenciesID=b83f24a862155629a7dd66e0d75d5141 StaticDependenciesID=fae474ebca21106e553bc6d3b96873ed 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 605.071743 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_2.png
+  importAddress: Guid(6bc4aecc560699e4da84155f2318765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_2.png using Guid(6bc4aecc560699e4da84155f2318765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '44b1025b7acfeef88ce90dfb6ffcb0ca') in 0.919413542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef2abc0a2ad177f2757f84a3c1ec77f1 DependenciesID=b0d1a651abc78236bf956043f50ce5e5 StaticDependenciesID=dafc9b6eb729070b363a0d9ad8425a5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_3.png
+  importAddress: Guid(d8f1aaff5584d024aab900c63ea4e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_7/Layer_3.png using Guid(d8f1aaff5584d024aab900c63ea4e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '216eef8ff6e5dac63f57d5db575398b3') in 0.016763375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed24913744f5d2420d492cab94cc666f DependenciesID=ab43965bb1d73da276f4d40210895b74 StaticDependenciesID=597ba668f4ba53e1c39bbc7f9e27d4a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.574945 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Layer_2.png
+  importAddress: Guid(4fb9acce328b55c488f408e9ad307162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Layer_2.png using Guid(4fb9acce328b55c488f408e9ad307162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '62bb07fc2e8d0821f65c975324caa503') in 0.035487292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b0cdb81908fff5f54f3154e7fd48f6b DependenciesID=376e4d1feb0417385573da72a9502c44 StaticDependenciesID=0232c57ed20c362f3ba25853e26a4d46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Original.png
+  importAddress: Guid(40405777943723548a1e78f73bbf4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_8/Original.png using Guid(40405777943723548a1e78f73bbf4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '63bd5f201ca7381da284c3e8a74861e5') in 0.014305917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c20f353ddece872a703790d9397da9d DependenciesID=58cd51cedfe3fba19ff2f85b2d1fc526 StaticDependenciesID=f547008c7abd533db467d85162acf693 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.755482 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_2.png
+  importAddress: Guid(4fedb8de82434c34f8bf1a6d9ea4cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_2.png using Guid(4fedb8de82434c34f8bf1a6d9ea4cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a7ddc8dacb50ee531bc98fd822bc8de') in 0.046335167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b930a1103861a2b9a42a572b2d4b4167 DependenciesID=c7f5b78a42b599c51e8e62e4bef7e488 StaticDependenciesID=f68b791d5d67c12da4aa855e717ee2e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_5.png
+  importAddress: Guid(66452ea88b7a8e44595d6454970918c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Layer_5.png using Guid(66452ea88b7a8e44595d6454970918c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5e399969a6aa8df6eb9c8b973e511209') in 0.007564958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78b0d349906e09d2d49b30ba87cf42e6 DependenciesID=bb6c9ced7258d096a7daa684bd22b0c4 StaticDependenciesID=17581e6cb70b2d83d0452203a6f9beb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Original.png
+  importAddress: Guid(201d5da21624b31488e7c371bb5aa563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_4/Original.png using Guid(201d5da21624b31488e7c371bb5aa563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6913c721364ce72a34e4284330c072cb') in 0.009720292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8e8ee3eaa4da59031c4f0f385c77726 DependenciesID=a77ae5fe5976892a8944d02dc428dfbc StaticDependenciesID=41cb17c7611cc06c83a5ac33aab05550 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.669668 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Layer_2.png
+  importAddress: Guid(49f9ff925ee6ca64dacf092a9766e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_2/Layer_2.png using Guid(49f9ff925ee6ca64dacf092a9766e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8ee4f486562b89cffe48ef124e3e238b') in 0.044798791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aaeb10913e4315c590e24ba7aa3af64d DependenciesID=9f7857f13a74426ba30da93ff91de440 StaticDependenciesID=6dd94a01398335850752b997a2d9a8bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.774258 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_1/Layer_2.png
+  importAddress: Guid(e3f1f1562f0bf634a84dfadfbc3a2e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_1/Layer_2.png using Guid(e3f1f1562f0bf634a84dfadfbc3a2e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ec9d94b3fd4490887d5f4efd54e22b93') in 0.015335333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da49bb4ad26584dea39888b182ff3617 DependenciesID=eb7d93f166b8135c351c6501f3dd9e77 StaticDependenciesID=5c5e3dd560e217d7d0951c02e6eae91d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Forest Backgrounds Pixel Art/PNG/Background_1/Layer_3.png
+  importAddress: Guid(2f63ce156584f604c9377789ae2fcd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Backgrounds Pixel Art/PNG/Background_1/Layer_3.png using Guid(2f63ce156584f604c9377789ae2fcd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70a81b9403452f02f767c5261791e326') in 0.0140575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06832318158d94f94beb612d1cd4d923 DependenciesID=1a3e3860a53f2878ca18f19f95bc4991 StaticDependenciesID=3ec5e8244f3ba93483a81e1a6707ecb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 841.048815 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire1.png
+  importAddress: Guid(597896b5bd1ae45e8923818e25d67a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire1.png using Guid(597896b5bd1ae45e8923818e25d67a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a81ed6c557c7b66a1e8ad34988107f78') in 0.209770333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbd5f778c1e6b00e80219a6b9e2bebd0 DependenciesID=b800f03e1105ee72b5e35769c2fcab79 StaticDependenciesID=66e668ff30da8c713d36285eec5307a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001492 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire2.png
+  importAddress: Guid(b49ec68784d154909a60e813b802b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire2.png using Guid(b49ec68784d154909a60e813b802b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '744006d400f3d1f0691d8e349c1a8b36') in 0.011149125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a626ec9b5988d34535b0686f0dcfdc8b DependenciesID=92436fc99ba55e355e1f204bdc96d503 StaticDependenciesID=cb504472dad11bca57cd88376e89a728 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire4.png
+  importAddress: Guid(2c329b811a83e46d8928f705262180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire4.png using Guid(2c329b811a83e46d8928f705262180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c1dc87d3d5793d25fdd2a56e97d29351') in 0.042149709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e71b0cb8090c85ca7826de4dabe7468 DependenciesID=ba72467a63d7d91bf2cc15b545bcbc30 StaticDependenciesID=841dfdf48c65b4474166608809712ca6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire3.png
+  importAddress: Guid(a361d0bfbed22487ca5e27df3288e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire3.png using Guid(a361d0bfbed22487ca5e27df3288e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '42c74860bb92c319c39449be6a617cdb') in 0.029705333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26bcd526b3ae0fabfcca41d000e8da88 DependenciesID=d4d27e2a98cccd1875aba01a7640e772 StaticDependenciesID=a446f672744fa97db9ccbb28be75468d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire7.png
+  importAddress: Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire7.png using Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '40600420c1397a0a3a49bfd0b41d1aeb') in 0.009162042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07cdf54ebc6bd42a008e58f4475aad1c DependenciesID=fedcd7aa527d7d943d25d51c6c819c88 StaticDependenciesID=e26c77bee37325474d85cc319604f8c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire6.png
+  importAddress: Guid(47e952a4b77a047849c7150b9fdbca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire6.png using Guid(47e952a4b77a047849c7150b9fdbca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4fc3d5c85c7bb273cd96a1059b1fba2c') in 0.01758775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18836f2c587afbf97060733609d77000 DependenciesID=a54adbaabb321794acbfda76316bb174 StaticDependenciesID=a7fb77175b2d4bec72474c9d9c74f6e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
